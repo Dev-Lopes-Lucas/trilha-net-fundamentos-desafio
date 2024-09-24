@@ -32,14 +32,20 @@ while (exibirMenu)
     switch (Console.ReadLine())
     {
         case "1":
+            Console.Clear();
+            Console.WriteLine("Você escolheu a opção 1:");
             es.AdicionarVeiculo();
             break;
 
         case "2":
+            Console.Clear();
+            Console.WriteLine("Você escolheu a opção 2:");
             es.RemoverVeiculo();
             break;
 
         case "3":
+            Console.Clear();
+            Console.WriteLine("Você escolheu a opção 3:");
             es.ListarVeiculos();
             break;
 
@@ -51,6 +57,8 @@ while (exibirMenu)
             Console.WriteLine("Opção inválida");
             break;
     }
+
+
 
     Console.WriteLine("Pressione uma tecla para continuar");
     Console.ReadLine();
